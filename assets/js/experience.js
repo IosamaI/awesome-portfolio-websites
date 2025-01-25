@@ -10,7 +10,7 @@ const exp = [
     cardImage: "assets/images/experience-page/SEC.png",
     place: "Jeddah city, Saudi Arabia",
     time: "(Feb 2024 – Sep 2024)",
-    desp:`<srtong>Cooperative Trainee – Database Department</strong>
+    desp:`<strong>Cooperative Trainee – Database Department</strong>
     <li>Learned and applied SQL programming to extract and analyze complex datasets.</li>
     <li>Designed and developed professional reports using Visual Studio Report Server.</li>
     <li>Collaborated with teams to validate data and refine reporting processes.</li>
@@ -25,8 +25,6 @@ const exp = [
         <li>Time management and project planning</li>
       </ul>
   `,
-  
-  
   
   },
   
@@ -222,24 +220,24 @@ document.addEventListener("DOMContentLoaded", showCards);
 //   },
 // ];
 
-const showCards3 = () => {
-  let output = "";
-  mentor.forEach(
-    ({ title, image, subtitle, desp, href }) =>
-      (output += `  
-      <div class="blog-slider__item swiper-slide">
-        <div class="blog-slider__img">
-            <img src="${image}" alt="">
-        </div>
-        <div class="blog-slider__content">
-          <div class="blog-slider__title">${title}</div>
-          <span class="blog-slider__code">${subtitle}</span>
-          <div class="blog-slider__text">${desp}</div>
-          <a href="${href}" class="blog-slider__button">Read More</a>   
-        </div>
-      </div>
-      `)
-  );
-  hackathonsection.innerHTML = output;
-};
-document.addEventListener("DOMContentLoaded", showCards3);
+// const showCards3 = () => {
+//   let output = "";
+//   mentor.forEach(
+//     ({ title, image, subtitle, desp, href }) =>
+//       (output += `  
+//       <div class="blog-slider__item swiper-slide">
+//         <div class="blog-slider__img">
+//             <img src="${image}" alt="">
+//         </div>
+//         <div class="blog-slider__content">
+//           <div class="blog-slider__title">${title}</div>
+//           <span class="blog-slider__code">${subtitle}</span>
+//           <div class="blog-slider__text">${desp}</div>
+//           <a href="${href}" class="blog-slider__button">Read More</a>   
+//         </div>
+//       </div>
+//       `)
+//   );
+//   hackathonsection.innerHTML = output;
+// };
+// document.addEventListener("DOMContentLoaded", showCards3);

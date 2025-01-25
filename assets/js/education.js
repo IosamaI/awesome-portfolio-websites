@@ -6,7 +6,7 @@ const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
     title: "CS50 SQL",
-    cardImage: "assets/images/education-page/CS50 SQL.png",
+    cardImage: "assets/images/education-page/CS50SQL.png",
     moocLink: "",
   },
   {
@@ -45,12 +45,6 @@ const moocscards = [
     moocLink: "https://www.coursera.org/account/accomplishments/verify/YEBA5XLEZDP8",
   },
   {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
-  },
-  {
     title: "Introduction to Data Engineering",
     cardImage: "assets/images/education-page/CERTIFICATE_LANDING_PAGE~R7C2TD3VATUY.jpeg",
     moocLink: "https://www.coursera.org/account/accomplishments/verify/R7C2TD3VATUY",
@@ -62,25 +56,19 @@ const moocscards = [
   },
   {
     title: "Linux ",
-    cardImage: "assets/images/education-page/Partner-_NDG_Linux_Essentials_certificate_1999-osamah-1-gmail-com_df760950-8a60-4a38-9e5b-289667892210 (1).pdf",
+    cardImage: "assets/images/education-page/Networking_Essentials_certificate_1999-osamah-1-gmail-com_4f9cacea-ebc1-4495-9c7f-3dd1088ebf.png",
     moocLink:"",
   },
   {
     title: "Networking Essentials",
-    cardImage: "assets/images/education-page/Networking_Essentials_certificate_1999-osamah-1-gmail-com_4f9cacea-ebc1-4495-9c7f-3dd1088ebf43.pdf",
+    cardImage: "assets/images/education-page/Networking_Essentials_certificate_1999-osamah-1-gmail-com_4f9cacea-ebc1-4495-9c7f-3dd1088ebf43-1.png",
     moocLink:"",
   },
   {
     title: "Partner: JavaScript Essentials 1 (JSE)",
-    cardImage: "assets/images/education-page/Partner-_JavaScript_Essentials_1_-JSE-_certificate_1999-osamah-1-gmail-com_f5f401a9-0f53-435e-bec7-fafb865e1134.pdf",
+    cardImage: "assets/images/education-page/Networking_Essentials_certificate_1999-osamah-1-gmail-com_4f9cacea-ebc1-4495-9c7f-3dd1088ebf43.png",
     moocLink:
       "",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
   },
 ];
 
