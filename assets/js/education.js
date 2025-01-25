@@ -5,44 +5,44 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    title: "CS50 SQL",
+    cardImage: "assets/images/education-page/CS50 SQL.png",
+    moocLink: "",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
+    title: "CS50 python",
+    cardImage: "assets/images/education-page/CS50P.png",
     moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
   },
   {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera2.svg",
+    title: "CS50’s Introduction to Computer Science",
+    cardImage: "assets/images/education-page/CS50x.png",
     moocLink: "https://www.coursera.org/learn/machine-learning",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
+    title: "CS50’s Introduction to Artificial Intelligence with Python",
+    cardImage: "assets/images/education-page/CS50AI.png",
     moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
   },
   {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Google Cybersecurity",
+    cardImage: "assets/images/education-page/CERTIFICATE_LANDING_PAGE~KKHMPY3JYSD7.jpeg",
+    moocLink: "https://coursera.org/verify/professional-cert/KKHMPY3JYSD7",
   },
   {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+    title: "Google IT Automation with Python",
+    cardImage: "assets/images/education-page/CERTIFICATE_LANDING_PAGE~77NVORNW6ZVU.jpeg",
+    moocLink: "https://www.coursera.org/account/accomplishments/professional-cert/77NVORNW6ZVU",
   },
   {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
+    title: "SQL for Data Science",
+    cardImage: "assets/images/education-page/CERTIFICATE_LANDING_PAGE~T3FEKHNP56BV.jpeg",
+    moocLink: "https://www.coursera.org/account/accomplishments/verify/T3FEKHNP56BV",
   },
   {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
+    title: "AWS Cloud Practitioner Essentials",
+    cardImage: "assets/images/education-page/CERTIFICATE_LANDING_PAGE~YEBA5XLEZDP8.jpeg",
+    moocLink: "https://www.coursera.org/account/accomplishments/verify/YEBA5XLEZDP8",
   },
   {
     title: "Intro to React Native",
@@ -51,14 +51,30 @@ const moocscards = [
       "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
   },
   {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
+    title: "Introduction to Data Engineering",
+    cardImage: "assets/images/education-page/CERTIFICATE_LANDING_PAGE~R7C2TD3VATUY.jpeg",
+    moocLink: "https://www.coursera.org/account/accomplishments/verify/R7C2TD3VATUY",
   },
   {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
+    title:"Python for Data Science, AI & Development",
+    cardImage: "assets/images/education-page/CERTIFICATE_LANDING_PAGE~9AFU7TBA6V46.jpeg",
+    moocLink: "https://www.coursera.org/account/accomplishments/verify/9AFU7TBA6V46",
+  },
+  {
+    title: "Linux ",
+    cardImage: "assets/images/education-page/Partner-_NDG_Linux_Essentials_certificate_1999-osamah-1-gmail-com_df760950-8a60-4a38-9e5b-289667892210 (1).pdf",
+    moocLink:"",
+  },
+  {
+    title: "Networking Essentials",
+    cardImage: "assets/images/education-page/Networking_Essentials_certificate_1999-osamah-1-gmail-com_4f9cacea-ebc1-4495-9c7f-3dd1088ebf43.pdf",
+    moocLink:"",
+  },
+  {
+    title: "Partner: JavaScript Essentials 1 (JSE)",
+    cardImage: "assets/images/education-page/Partner-_JavaScript_Essentials_1_-JSE-_certificate_1999-osamah-1-gmail-com_f5f401a9-0f53-435e-bec7-fafb865e1134.pdf",
+    moocLink:
+      "",
   },
   {
     title: "Data Structures & Algorithms",
