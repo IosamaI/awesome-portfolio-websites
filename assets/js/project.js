@@ -6,9 +6,9 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Quiz App",
-    cardImage: "assets/images/project-page/quiz.jpg",
-    description: "A quiz app built using basic react.",
+    title: "PDF Image to CSV Converter",
+    cardImage: "assets/images/project-page/post-convert-pdf-to-csv.png",
+    description: "•Developed a robust system for extracting structured data and plain text from PDF files",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "",
     Githublink: "",
