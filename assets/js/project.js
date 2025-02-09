@@ -14,14 +14,7 @@ const projects = [
     Previewlink: "",
     Githublink: "https://github.com/IosamaI/python-CS50p",
   },
- {
-    title: "Django Blog Project",
-    cardImage: "assets/images/project-page/dd.png",
-    description: "This is a simple Django-based blog application that allows users to register, log in, and interact with posts.",
-    tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
-    Previewlink: "",
-    Githublink: "https://github.com/IosamaI/my_site/tree/main",
-  },
+
 
   {
     title: "PDF Image to CSV Converter",
